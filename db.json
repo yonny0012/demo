@@ -1,14 +1,112 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "question": [
+    {
+      "id": "0",
+      "name": "la pregunta",
+      "type": "simple",
+      "text": "la pregunta de verdad",
+      "description": "",
+      "feedback": "",
+      "options": [
+        {
+          "id": 0,
+          "text": "asdd",
+          "description": "la descripcion",
+          "feedback": "",
+          "created_by": {
+            "id": 0,
+            "email": ""
+          },
+          "create_at": "2020-08-15 15:55:30.005"
+        },
+        {
+          "id": 1,
+          "text": "ghf",
+          "description": "ssssss",
+          "feedback": "",
+          "created_by": {
+            "id": 0,
+            "email": ""
+          },
+          "create_at": "2020-08-15 15:55:30.005"
+        },
+        {
+          "id": 2,
+          "text": "fggg",
+          "description": "aaaaaaaaa",
+          "feedback": "",
+          "created_by": {
+            "id": 0,
+            "email": ""
+          },
+          "create_at": "2020-08-15 15:55:30.005"
+        }
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "",
+          "description": "",
+          "active": true,
+          "created_at": "2020-08-15 15:55:30.005",
+          "modified_at": "2020-08-15 15:55:30.005"
+        },
+        {
+          "id": 1,
+          "name": "",
+          "description": "",
+          "active": false,
+          "created_at": "2020-08-15 15:55:30.005",
+          "modified_at": "2020-08-15 15:55:30.005"
+        }
+      ],
+      "created_by": {
+        "id": 0,
+        "email": ""
+      },
+      "created_at": "2020-08-15 15:55:30.005",
+      "modified_by": {
+        "id": 0,
+        "email": ""
+      },
+      "modified_at": "2020-08-15 15:55:30.005",
+      "updated": ""
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "tags": [
+    {
+      "id": "f2ff",
+      "name": "direccion",
+      "description": "consduccion del ninho",
+      "active": true,
+      "created_at": "2024-08-17T21:50:45.936Z",
+      "modified_at": "2024-08-17T21:50:45.936Z"
+    },
+    {
+      "id": "ae4e",
+      "name": "formato de fechas",
+      "description": "fechas formateadas al timestat",
+      "active": true,
+      "created_at": "2024-08-17 18:02:11.849",
+      "modified_at": "2024-08-17 18:02:11.849"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "option": [
+    {
+      "id": "0",
+      "text": "asdd",
+      "description": "la descripcion",
+      "feedback": "",
+      "created_by": {
+        "id": 0,
+        "email": ""
+      },
+      "created_at": "2020-08-15 15:55:30.005",
+      "question": {
+        "id": 0,
+        "name": "la pregunta",
+        "type": "simple"
+      }
+    }
+  ]
 }
